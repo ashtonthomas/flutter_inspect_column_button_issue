@@ -35,7 +35,17 @@ class _MyHomePageState extends State<MyHomePage> {
       body: new Center(
         child: new Column(
           children: <Widget>[
-            Text("hello"),
+            Text("1"),
+            Text("2"),
+            Text("3"),
+            RaisedButton(child: Text("Button"), onPressed: null,),
+            Text("4"),
+            Text("5"),
+            Text("6"),
+            Icon(Icons.ac_unit),
+            Container(
+              child: Text("where am i?"),
+            ),
           ],
         ),
       ),
