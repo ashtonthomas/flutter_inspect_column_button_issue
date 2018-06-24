@@ -1,4 +1,6 @@
-It appears that putting a RaiseButton in a Column will hide (kinda) all following elements
+It appears that putting a RaiseButton in a Column will hide (kinda) all following elements ([issue#18769](https://github.com/flutter/flutter/issues/18769))
+
+Update: This is no longer an issue, running `flutter upgrade` resolved the issue
 
 ```
 Column(
